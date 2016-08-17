@@ -322,9 +322,68 @@ footer {
 }
 
 
-
+/* DESKTOP DEVICES */
 @media (min-width: 949px) {
-  body {
-    background: grey;
+
+  /************************
+      HEADER & MAIN NAVIGATION
+  ************************/
+
+  .page-header {
+    text-align: right;
+    position: relative;
+  }
+
+  .page-header h1, .main-nav {
+    display: inline-block;
+  }
+
+  .page-header h1 {
+    position: absolute;
+    left: 0;
+  }
+
+  .main-nav ul, .main-nav li {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+
+
+  /************************
+      STUDENT PRESENTATION
+  ************************/
+
+  .student-presentation p {
+    padding-right: 40px;
+  }
+
+
+
+  /************************
+      STUDENT PORTFOLIO
+  ************************/
+
+  .student-projects {
+    width: 33.3333%;
+  }
+
+  .student-projects:nth-child(4n) {
+    clear: none;
+  }
+
+  .student-projects:nth-child(5n) {
+    clear: left;
+  }
+
+
+
+  /************************
+      STUDENT CONTACT PAGE
+  ************************/
+
+  .student-contact-page p {
+    padding-left: 30%;
+    padding-right: 28%;
   }
 }
