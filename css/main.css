@@ -155,6 +155,58 @@ li {
 
 
 
+
+/************************
+    STUDENT SKILLS
+************************/
+
+.student-skills {
+  margin-bottom: 100px;
+}
+
+.student-skills h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1em;
+  margin-bottom: 40px;
+}
+
+.skills-quote {
+  text-align: center;
+  font-weight: 300;
+}
+
+.skills-quote span {
+  font-weight: 400;
+}
+
+.student-skills p:nth-child(3),
+.student-skills p:nth-child(4) {
+  text-align: justify;
+}
+
+.technical-skills {
+  padding-left: 0;
+  text-align: center;
+}
+
+.technical-skills li {
+  border: 1px solid #aaa;
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.technical-skills li:nth-child(even) {
+  font-style: italic;
+}
+
+.technical-skills li:nth-child(odd) {
+  font-weight: 300;
+}
+
 /************************
     STUDENT CONTACT PAGE
 ************************/
@@ -245,6 +297,10 @@ footer {
     margin-right: 30px;
   }
 
+  .main-nav li:nth-child(3) {
+    margin-right: 30px;
+  }
+
   .main-nav a {
     font-size: 0.9em;
     display: initial;
@@ -292,6 +348,26 @@ footer {
     margin-bottom: 30px;
   }
 
+
+
+  /************************
+      STUDENT SKILLS
+  ************************/
+
+  .student-skills {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .skills-quote {
+    padding-bottom: 15px;
+    border-bottom: 2px solid #ddd;
+  }
+
+  .student-skills p:nth-child(3) {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+  }
 
 
   /************************
@@ -404,11 +480,30 @@ footer {
 
 
   /************************
+      STUDENT SKILLS
+  ************************/
+
+  .student-skills {
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+
+  .skills-quote {
+    padding-bottom: 30px;
+  }
+
+  .student-skills p:nth-child(3) {
+    padding-bottom: 20px;
+  }
+
+
+
+  /************************
       STUDENT CONTACT PAGE
   ************************/
 
   .student-contact-page p {
-    padding-left: 30%;
+    padding-left: 28%;
     padding-right: 28%;
   }
 }
