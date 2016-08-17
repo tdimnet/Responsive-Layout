@@ -1,6 +1,27 @@
 /************************
     CSS SUMMARY:
       1.GENERAL
+      2.HEADER & MAIN NAVIGATION
+      3.STUDENT PRESENTATION
+      4.STUDENT PORTFOLIO
+      5.STUDENT CONTACT PAGE
+      6.FOOTER
+      7.MEDIA QUERIES
+
+        7.1.0.TABLET DEVICES
+        7.1.1.HEADER & MAIN NAVIGATION
+        7.1.2.STUDENT PRESENTATION
+        7.1.3.STUDENT PORTFOLIO
+        7.1.4.STUDENT CONTACT PAGE
+        7.1.5.FOOTER
+
+        7.2.0.DESKTOP DEVICES
+        7.2.1.HEADER & MAIN NAVIGATION
+        7.2.2.STUDENT PRESENTATION
+        7.2.3.STUDENT PORTFOLIO
+        7.2.4.STUDENT CONTACT PAGE
+
+
 ************************/
 
 
@@ -9,7 +30,9 @@
     GENERAL
 ************************/
 
-/* If you want to know more about this rule : http://blog.teamtreehouse.com/take-control-of-the-box-model-with-box-sizing */
+/* If you want to know more about the rule below :
+      http://blog.teamtreehouse.com/take-control-of-the-box-model-with-box-sizing
+*/
  * {
    box-sizing: border-box;
    font-family: 'Open Sans', sans-serif;
@@ -50,7 +73,7 @@ li {
 
 
 /************************
-    HEADER & MAIN NAVIGATION
+    HEADER & MAIN NAVIGATION<
 ************************/
 
 .page-header {
@@ -131,6 +154,7 @@ li {
 }
 
 
+
 /************************
     STUDENT CONTACT PAGE
 ************************/
@@ -198,7 +222,7 @@ footer {
     MEDIA QUERIES
 ************************/
 
-/* TABLE DEVICES */
+/* START: TABLET DEVICES */
 @media (min-width: 768px) {
 
   /************************
@@ -320,9 +344,10 @@ footer {
     color: #777;
   }
 }
+/* END: TABLET DEVICES */
 
 
-/* DESKTOP DEVICES */
+/* START: DESKTOP DEVICES */
 @media (min-width: 949px) {
 
   /************************
@@ -387,3 +412,4 @@ footer {
     padding-right: 28%;
   }
 }
+/* END: DESKTOP DEVICES */
