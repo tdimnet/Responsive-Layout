@@ -348,7 +348,7 @@ footer {
 
 
 /* START: DESKTOP DEVICES */
-@media (min-width: 949px) {
+@media (min-width: 1024px) {
 
   /************************
       HEADER & MAIN NAVIGATION
