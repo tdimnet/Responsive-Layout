@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Name | Portfolio</title>
     <link rel="stylesheet" href="css/normalize.css">
-    <!-- Add font styles with Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,800" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
@@ -13,12 +13,12 @@
     <div class="main-wrapper">
       <header class="page-header">
         <!-- Remove all Student Name and replace with your real name -->
-        <h1><a href="#">Student Name</a></h1>
+        <h1 id="top"><a href="#">Student Name</a></h1>
         <nav class="main-nav">
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#top">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
       </header>
@@ -37,7 +37,7 @@
 
       <!-- START: Student Portfolio -->
       <section class="student-portfolio">
-        <h2>Portfolio</h2>
+        <h2 id="portfolio">Portfolio</h2>
 
         <section class="student-projects">
           <img src="img/portfolio-1.png" alt="Image of the marketing page project">
@@ -92,7 +92,7 @@
 
       <!-- START: Student Contact Page -->
       <section class="student-contact-page">
-        <h2>Contact</h2>
+        <h2 id="contact">Contact</h2>
         <p>
           If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!
         </p>
@@ -109,7 +109,7 @@
         <nav class="footer-nav">
           <ul>
             <li>Student Name</li>
-            <li><a href="#">Back to top</a></li>
+            <li><a href="#top">Back to top</a></li>
           </ul>
         </nav>
       </footer>

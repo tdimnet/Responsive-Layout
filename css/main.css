@@ -12,6 +12,7 @@
 /* If you want to know more about this rule : http://blog.teamtreehouse.com/take-control-of-the-box-model-with-box-sizing */
  * {
    box-sizing: border-box;
+   font-family: 'Open Sans', sans-serif;
  }
 
 body {
@@ -89,6 +90,7 @@ li {
 
 .student-presentation {
   text-align: center;
+  font-weight: 300;
 }
 
 
@@ -109,6 +111,14 @@ li {
   font-size: 1em;
 }
 
+.student-projects {
+  margin-bottom: 60px;
+  font-size: 1em;
+}
+
+.student-projects:last-child {
+  margin-bottom: 0;
+}
 
 
 /************************
@@ -117,6 +127,7 @@ li {
 
 .student-contact-page {
   text-align: center;
+  font-weight: 300;
 }
 
 .student-contact-page h2 {
@@ -132,7 +143,7 @@ li {
 .contact-student-items a {
   margin-left: 10px;
   color: #000;
-  font-weight: bold;
+  font-weight: 400;
 }
 
 
@@ -142,6 +153,7 @@ li {
 ************************/
 
 footer {
+  border-top: 1px solid #999;
   margin-top: 80px;
   margin-bottom: 30px;
 }
