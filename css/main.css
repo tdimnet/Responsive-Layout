@@ -369,6 +369,11 @@ footer {
     border-bottom: 2px solid #ddd;
   }
 
+  .technical-skills {
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+
 
   /************************
       STUDENT CONTACT PAGE
