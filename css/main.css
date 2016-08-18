@@ -126,6 +126,15 @@ li {
   font-weight: 300;
 }
 
+.student-presentation p a {
+  color: #000;
+  font-weight: 400;
+}
+
+.student-presentation p a:hover {
+  text-decoration: underline;
+}
+
 
 
 /************************
