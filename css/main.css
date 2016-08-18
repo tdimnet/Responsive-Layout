@@ -164,7 +164,6 @@ li {
 
 
 
-
 /************************
     STUDENT SKILLS
 ************************/
@@ -215,6 +214,8 @@ li {
 .technical-skills li:nth-child(odd) {
   font-weight: 300;
 }
+
+
 
 /************************
     STUDENT CONTACT PAGE
@@ -384,6 +385,7 @@ footer {
   }
 
 
+
   /************************
       STUDENT CONTACT PAGE
   ************************/
@@ -435,6 +437,7 @@ footer {
   }
 }
 /* END: TABLET DEVICES */
+
 
 
 /* START: DESKTOP DEVICES */
@@ -510,6 +513,7 @@ footer {
   .student-projects:nth-child(10n) {
     clear: none;
   }
+
 
 
   /************************
