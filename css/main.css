@@ -483,6 +483,12 @@ footer {
     width: 33.3333%;
   }
 
+  .student-projects:hover {
+    transition: .30s;
+    background: #aaa;
+    color: #fff;
+  }
+
   /*
     WARNING:
       The order below realy matters!
