@@ -483,6 +483,12 @@ footer {
     width: 33.3333%;
   }
 
+  /*
+    WARNING:
+      The order below realy matters!
+      If you change it, you will have some alignment issues!
+  */
+
   .student-projects:nth-child(4n) {
     clear: none;
   }
@@ -491,6 +497,13 @@ footer {
     clear: left;
   }
 
+  .student-projects:nth-child(8n) {
+    clear: left;
+  }
+
+  .student-projects:nth-child(10n) {
+    clear: none;
+  }
 
 
   /************************
